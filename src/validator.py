@@ -10,7 +10,7 @@ def is_password(password):
     upper_password = bool(re.search(r'[A-Z]', password))
     lower_password = bool(re.search(r'[a-z]', password))
     digit_password = bool(re.search(r'\d', password))
-    special_password = bool(re.search(r'[!@#$%^&*(),.?":{}|<>_+-;~`]', password))
+    special_password = bool(re.search(r'[!@#$%^&*(),.?":{}|<>_+-;~=`]', password))
     return upper_password and lower_password and digit_password and special_password
 
 def is_valid_age(age):
