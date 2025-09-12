@@ -1,3 +1,6 @@
+### 筆記
+https://hackmd.io/@JeterYu/HyZJWLacel
+
 ### 建立虛擬環境
 ```bash
 uv init --no-workspace
