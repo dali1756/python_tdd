@@ -13,7 +13,7 @@ uv pip install -r requirements.txt
 ```
 
 ### 資料結構
-```bash
+```
 python_tdd
 ├─ README.md
 ├─ main.py
@@ -22,9 +22,19 @@ python_tdd
 ├─ requirements.txt
 ├─ src
 │  ├─ __init__.py
-│  └─ calculator.py
+│  ├─ calculator.py
+│  ├─ math_utils.py
+│  └─ validator.py
 ├─ tests
 │  ├─ __init__.py
-│  └─ test_calculator.py
+│  ├─ test_basic_assert.py
+│  ├─ test_calculator.py
+│  ├─ test_calculator_structured.py
+│  ├─ test_math_utils.py
+│  ├─ test_number_assert.py
+│  ├─ test_string_assert.py
+│  ├─ test_validator.py
+│  └─ 安裝必要套件.ini
 └─ uv.lock
+
 ```
